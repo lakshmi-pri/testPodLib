@@ -8,35 +8,35 @@
 
 Pod::Spec.new do |s|
   s.name             = 'testPodLib'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of testPodLib.'
-
+  s.version          = "0.2.0"
+  s.summary          = "A CocoaPods library written in Swift"
+  
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
 #   * Try to keep it short, snappy and to the point.
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description  = <<-DESC
+This CocoaPods library helps you perform calculation.
+                 DESC
 
   s.homepage         = 'https://github.com/lakshmi-pri/testPodLib'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'lakshmi-pri' => 'lakshmipriya2001dpl@gmail.com' }
-  s.source           = { :git => 'https://github.com/lakshmi-pri/testPodLib.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => 'https://github.com/lakshmi-pri/testPodLib.git',:tag => "0.0.2"}
+#   s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
-
-  s.source_files = 'testPodLib/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'testPodLib' => ['testPodLib/Assets/*.png']
-  # }
+  s.source_files = 'testPodLib/**/*'
+  
+#   s.resource_bundles = {
+#     'testPodLib' => ['testPodLib/Assets/*.png']
+#   }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+#   s.public_header_files = 'Pod/Classes/**/*.h'
+#   s.frameworks = 'UIKit', 'MapKit'
+#   s.dependency 'AFNetworking', '~> 2.3'
 end
