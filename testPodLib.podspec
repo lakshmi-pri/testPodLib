@@ -25,11 +25,11 @@ This CocoaPods library helps you perform calculation.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'lakshmi-pri' => 'lakshmipriya2001dpl@gmail.com' }
-  s.source           = { :git => 'https://github.com/lakshmi-pri/testPodLib.git',:tag => "0.0.2"}
+  s.source           = { :git => 'https://github.com/lakshmi-pri/testPodLib.git',:tag => "0.2.0"}
 #   s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
-  
+  s.swift_versions = '5.0'
   s.source_files = 'testPodLib/**/*'
   
 #   s.resource_bundles = {
